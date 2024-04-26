@@ -4,7 +4,6 @@
 
 int g_value;
 std::mutex g_incrementMtx;
-std::mutex g_outputMtx;
 
 void print() 
 {
