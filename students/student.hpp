@@ -45,6 +45,7 @@ public:
         if (m_students.find(id) == m_students.end())
         {            
             std::cout << "Error" << std::endl;
+            return;
         }
         m_students.erase(id);
     }
@@ -57,7 +58,7 @@ public:
         }
         std::cout << "Name " << m_students[id]->m_name << '\n'
                   << "age " << m_students[id]->m_age  << '\n'
-                  << "id " << id;
+                  << "id " << id << '\n';
     }
 
 private:

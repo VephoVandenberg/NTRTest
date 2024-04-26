@@ -7,5 +7,8 @@ int main()
     Campus camp;
     camp.addStudent(s1);
     camp.getStudentData(1);
+    camp.removeStudent(1);
+    camp.getStudentData(1);
+    
     return 0;
 }
